@@ -28,3 +28,11 @@ const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`listening on ${PORT}`);
 });
+
+// terminal commands:
+// 1. set up your package.json: "nmp init"
+      // make sure that entry point is server.js (instead o f index.js)
+// 2. after acquiring library, to to terminal and run: npm install name-of-library
+
+// turn on server use nodemon
+// then go to browser and go to port:3000
